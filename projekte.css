@@ -1,0 +1,224 @@
+body{
+    max-width:100%px;
+    margin: -4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+    background-image:  url("meineimg/h2.jpg");
+    text-align: justify;
+    background-attachment: fixed;
+  }
+  .container {
+    position: relative;
+    
+  }
+  div {
+    margin-top: -4px;
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(18, 18, 19);
+  }
+  .smedia{
+      position: absolute;
+      top: 50%;
+      width: 50px;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: -3px;
+    padding: 0px;
+    overflow: hidden;
+    background-image: url(meineimg/li1.jfif); 
+    width: 100%px;
+    border: 3px solid black;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 300;
+   }
+  .part1{
+      margin: 0px;  
+  }
+  .part2{
+      margin: -1;
+  }
+  .part3{
+      margin: -1;
+      border: 5px solid black;
+  }
+   ul li {
+    float: left;
+  }
+  
+    ul li a, .dropbtn {
+    display: inline-block;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+    
+  }
+ 
+  
+  ul li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(104, 50, 50, 0.555);
+  }
+  
+ ul li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #383434;
+    min-width: 160px;
+    box-shadow: 0px 16px 16px 0px rgb(231, 222, 222);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(239, 241, 247);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #eb080844;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;}
+  
+  .logo {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 44.6%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+  
+  }
+  .text1 {
+    font-family: initial;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    
+  }
+  h1{
+    animation: shadow 3s ease-in-out infinite
+    
+  
+  
+  }
+  @keyframes shadow
+  {
+    0%{text-shadow: 5px 2px 3px rgb(245, 9, 9)}
+    50%{text-shadow: -5px 2px 3px rgb(245, 9, 9)}
+    100%{text-shadow: 5px 2px 3px rgb(245, 9, 9)}
+  }
+  
+  
+  .button {
+    display: inline-block;
+    position: absolute;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #861818;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 45%;
+  }
+  
+  .button:hover {background-color: #861818}
+  
+  .button:active {
+    background-color: #861818;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  main{
+    border: 3px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 150px;
+    background-image: url("meineimg/header4.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+  }
+ .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery a{
+  padding: 15px;
+  
+}
+.gallery img{
+  transition: 1s;
+  width: 410px;
+  border: 1px solid black;
+  
+}
+.gallery img:hover{
+  filter: grayscale(50%);
+  transform: scale(1.1);
+}
+.gallery video{
+  transition: 1s;
+  width: 410px;
+  
+  
+}
+.gallery video:hover{
+  filter: grayscale(50%);
+  transform: scale(1.1);
+}
+  
+ 
+  
+  footer{
+    width: 100%;
+    height: 50%;
+    border:2px solid black;
+    background-image: url("meineimg/woodred2.jpg") ;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    margin: 0px;
+    margin-top: 10%;
+    
+  }
+  
+  .smedia1{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    margin-left: 600px;
+    margin-top: 3px;
+    
+    
+  }
+  @import url('https://fonts.googleapis.com/css?family=Molle:400i&display=swap');
+  .satz{
+    color:black;
+     font-weight: bold; 
+     font-size:40px;
+     font-family: 'Molle', cursive;
+  }
+  
